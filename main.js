@@ -13,9 +13,9 @@ function login() {
 }
 
 if (!localStorage.getItem('username')) {
-    document.getElementById('login-section').style.display = 'block'  
+    document.getElementById('login-section').style.display = 'contents'  
 } else {
-    document.getElementById('login-section').style.display = 'block'  
+    document.getElementById('login-section').style.display = 'contents'  
     displayProducts() 
 }
 
