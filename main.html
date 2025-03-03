@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerSell</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Product Manager</h1>
+        <div class="search-container" style="display: flex;">
+            <input type="text" id="search-bar" placeholder="Search products...">
+        </div>
+    </header>
+    <div id="login-section" class="login-section">
+        <h3>Login</h3>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+    <main>
+        <div class="create-product">
+            <h2>Create Product</h2>
+            <div id="product-inputs">
+                <input type="text" id="product-name" placeholder="Product Name" required>
+                <input type="number" id="product-price" placeholder="Price" required>
+                <input type="text" id="product-image" placeholder="Image URL" required>
+                <button id="add-product-button" class="btn">Add Product</button>
+            </div>
+        </div>
+        <div class="product-list">
+            <h2>Products</h2>
+            <div id="product-container"></div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>

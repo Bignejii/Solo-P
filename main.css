@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #5d65d3, #000000);
+    color: #333;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+header {
+    background: rgba(93, 101, 211, 0.95);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid #373d77;
+}
+header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+.login-section {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: 1.5rem auto;
+}
+.login-section h3 {
+    color: #5d65d3;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.login-section input {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+.login-section button,
+#add-product-button
+{
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+.login-section button,
+#add-product-button {
+    background-color: #5d65d3;
+    width: 100%;
+}
+.login-section button:hover,
+#add-product-button:hover {
+    background-color: #4a51a8;
+    transform: translateY(-2px);
+}
+main {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
